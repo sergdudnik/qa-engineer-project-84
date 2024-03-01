@@ -1,0 +1,147 @@
+17:20:22.778 Navigated to https://hexlet-products-store.vercel.app/
+17:20:23.024 hexlet-products-store.vercel.app/:1 
+        
+        
+       GET https://site/static/css/random.css net::ERR_NAME_NOT_RESOLVED
+17:20:23.027 hexlet-products-store.vercel.app/:1 
+        
+        
+       GET https://site/static/js/author.js net::ERR_NAME_NOT_RESOLVED
+17:20:23.658 content.min.js:1 XHR finished loading: GET "chrome-extension://mgijmajocgfcbeboacabfgobmjgjcoja/content.min.css".
+u @ content.min.js:1
+y @ content.min.js:1
+(anonymous) @ content.min.js:17
+(anonymous) @ content.min.js:17
+Show 4 more frames
+Show less
+17:20:23.751 fetchStore.ts:5 Fetch finished loading: GET "https://dummyjson.com/products?skip=0".
+(anonymous) @ fetchStore.ts:5
+c @ regeneratorRuntime.js:44
+(anonymous) @ regeneratorRuntime.js:125
+(anonymous) @ regeneratorRuntime.js:69
+en @ asyncToGenerator.js:3
+i @ asyncToGenerator.js:22
+(anonymous) @ asyncToGenerator.js:27
+(anonymous) @ asyncToGenerator.js:19
+(anonymous) @ fetchStore.ts:3
+mu.CALL @ redux-saga-core.esm.js:524
+(anonymous) @ redux-saga-core.esm.js:1203
+d @ redux-saga-core.esm.js:1271
+f @ redux-saga-core.esm.js:1161
+l @ redux-saga-core.esm.js:1251
+mu.SELECT @ redux-saga-core.esm.js:731
+(anonymous) @ redux-saga-core.esm.js:1203
+d @ redux-saga-core.esm.js:1271
+f @ redux-saga-core.esm.js:1161
+_u @ redux-saga-core.esm.js:1108
+(anonymous) @ redux-saga-core.esm.js:585
+nu @ redux-saga-core.esm.js:56
+mu.FORK @ redux-saga-core.esm.js:584
+(anonymous) @ redux-saga-core.esm.js:1203
+d @ redux-saga-core.esm.js:1271
+f @ redux-saga-core.esm.js:1161
+l @ redux-saga-core.esm.js:1251
+u @ redux-saga-core.esm.js:503
+e.put @ redux-saga-core.esm.js:339
+(anonymous) @ redux-saga-core.esm.js:376
+eu @ redux-saga-core.esm.js:31
+ou @ redux-saga-core.esm.js:87
+tu @ redux-saga-core.esm.js:46
+e.put @ redux-saga-core.esm.js:375
+(anonymous) @ redux-saga-core.esm.js:1412
+(anonymous) @ StorePage.tsx:13
+rl @ react-dom.production.min.js:244
+xs @ react-dom.production.min.js:286
+(anonymous) @ react-dom.production.min.js:282
+x @ scheduler.production.min.js:13
+L @ scheduler.production.min.js:14
+Show 37 more frames
+Show less
+17:20:40.995 Cart.tsx:36 
+        
+        
+       GET https://dummyjson.com/http/500/failed 500 (Internal Server Error)
+(anonymous) @ Cart.tsx:36
+c @ regeneratorRuntime.js:44
+(anonymous) @ regeneratorRuntime.js:125
+(anonymous) @ regeneratorRuntime.js:69
+en @ asyncToGenerator.js:3
+i @ asyncToGenerator.js:22
+(anonymous) @ asyncToGenerator.js:27
+(anonymous) @ asyncToGenerator.js:19
+(anonymous) @ Cart.tsx:34
+(anonymous) @ Cart.tsx:43
+rl @ react-dom.production.min.js:244
+xs @ react-dom.production.min.js:286
+(anonymous) @ react-dom.production.min.js:283
+ks @ react-dom.production.min.js:281
+ls @ react-dom.production.min.js:273
+Va @ react-dom.production.min.js:127
+(anonymous) @ react-dom.production.min.js:267
+Show 14 more frames
+Show less
+17:20:40.997 Cart.tsx:36 Fetch failed loading: GET "https://dummyjson.com/http/500/failed".
+(anonymous) @ Cart.tsx:36
+c @ regeneratorRuntime.js:44
+(anonymous) @ regeneratorRuntime.js:125
+(anonymous) @ regeneratorRuntime.js:69
+en @ asyncToGenerator.js:3
+i @ asyncToGenerator.js:22
+(anonymous) @ asyncToGenerator.js:27
+(anonymous) @ asyncToGenerator.js:19
+(anonymous) @ Cart.tsx:34
+(anonymous) @ Cart.tsx:43
+rl @ react-dom.production.min.js:244
+xs @ react-dom.production.min.js:286
+(anonymous) @ react-dom.production.min.js:283
+ks @ react-dom.production.min.js:281
+ls @ react-dom.production.min.js:273
+Va @ react-dom.production.min.js:127
+(anonymous) @ react-dom.production.min.js:267
+Show 14 more frames
+Show less
+17:20:52.336 fetchStore.ts:5 Fetch finished loading: GET "https://dummyjson.com/products?skip=0".
+(anonymous) @ fetchStore.ts:5
+c @ regeneratorRuntime.js:44
+(anonymous) @ regeneratorRuntime.js:125
+(anonymous) @ regeneratorRuntime.js:69
+en @ asyncToGenerator.js:3
+i @ asyncToGenerator.js:22
+(anonymous) @ asyncToGenerator.js:27
+(anonymous) @ asyncToGenerator.js:19
+(anonymous) @ fetchStore.ts:3
+mu.CALL @ redux-saga-core.esm.js:524
+(anonymous) @ redux-saga-core.esm.js:1203
+d @ redux-saga-core.esm.js:1271
+f @ redux-saga-core.esm.js:1161
+l @ redux-saga-core.esm.js:1251
+mu.SELECT @ redux-saga-core.esm.js:731
+(anonymous) @ redux-saga-core.esm.js:1203
+d @ redux-saga-core.esm.js:1271
+f @ redux-saga-core.esm.js:1161
+_u @ redux-saga-core.esm.js:1108
+(anonymous) @ redux-saga-core.esm.js:585
+nu @ redux-saga-core.esm.js:56
+mu.FORK @ redux-saga-core.esm.js:584
+(anonymous) @ redux-saga-core.esm.js:1203
+d @ redux-saga-core.esm.js:1271
+f @ redux-saga-core.esm.js:1161
+l @ redux-saga-core.esm.js:1251
+u @ redux-saga-core.esm.js:503
+e.put @ redux-saga-core.esm.js:339
+(anonymous) @ redux-saga-core.esm.js:376
+eu @ redux-saga-core.esm.js:31
+ou @ redux-saga-core.esm.js:87
+tu @ redux-saga-core.esm.js:46
+e.put @ redux-saga-core.esm.js:375
+(anonymous) @ redux-saga-core.esm.js:1412
+(anonymous) @ StorePage.tsx:13
+rl @ react-dom.production.min.js:244
+xs @ react-dom.production.min.js:286
+(anonymous) @ react-dom.production.min.js:283
+ks @ react-dom.production.min.js:281
+ls @ react-dom.production.min.js:273
+Va @ react-dom.production.min.js:127
+(anonymous) @ react-dom.production.min.js:267
+Show 39 more frames
+Show less
