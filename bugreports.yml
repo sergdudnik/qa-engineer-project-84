@@ -106,6 +106,35 @@
     После оформления заказа заказанный товар остаётся в корзине
 
 - summary: |
+    После оформления заказа ошибка 500 в DevTools
+  environment: |
+    Google Chrome   Version 121.0.6167.184 (Official Build) (x86_64)
+    MacOS 12.7.3
+  steps-to-reproduce: |
+    1. Открыть консоль DevTools
+    1. Добавить в корзину 2-3 единицы произвольного товара
+    2. Перейти в корзину
+    3. Нажать кнопку Checkout
+  expected-result: |
+    После оформления заказа консоль не показывает ошибок  
+  actual-result: |
+    Ошибка 500 в консоли. 
+    См. файлы artefacts/hexlet-products-store.vercel.app-1709306459717.log,
+    artefacts/hexlet-products-store.vercel.app.har
+
+- summary: |
+    Битая картинка с флагом в меню переключения языков
+  environment: |
+    Google Chrome   Version 121.0.6167.184 (Official Build) (x86_64)
+    MacOS 12.7.3
+  steps-to-reproduce: |
+    1. Раскрыть меню переключения языков
+  expected-result: |
+    Напротив каждого языка находится картинка соотв. флага  
+  actual-result: |
+    Битая картинка флага, соответствующего английскому языку
+
+- summary: |
     После переключения языкового интерфейса на русский описание товара остаётся на английском языке
   environment: |
     Google Chrome   Version 121.0.6167.184 (Official Build) (x86_64)
